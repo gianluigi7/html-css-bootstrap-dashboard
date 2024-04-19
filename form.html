@@ -117,6 +117,106 @@
             </div>
         </div>
             <main class="col-md-9 px-md-4 col-lg-10 ms-sn-auto">
+              <div class="container-fluid">
+                
+                <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+                  <h1 class="display-8 mx-4">Crea nuovo prodotto</h1>
+                  <p class="lead">I campi contrassegnati con un asterisco (*) sono obbligatori. <br> Le immagini devono essere in formato PNG e non devono superare i 4MB di dimensione</p>
+                </div>
+                <div class="row mt-4">
+                  <div class="col-12 col-lg-7 mb-4">
+                    <div class="form-group">
+                      <label class="mb-1">Nome</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Samsung Galaxy 10 plus"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label class="mb-1 mt-3">Nome</label>
+                      <input
+                        type="number"
+                        class="form-control d-md-inline"
+                        placeholder="99.00"
+                      />
+                    </div>
+                    <div class="form-group">
+                      <label class="mb-1 mt-3">Marca</label>
+                      <select class="form-select" aria-label="Default select example">
+                        <option selected>---Seleziona---</option>
+                        <option value="1">Samsung</option>
+                        <option value="2">sony</option>
+                        <option value="3">Xiaomi</option>
+                      </select>
+                      <div class="input-group mt-3">
+                        <textarea class="form-control" aria-label="With textarea" placeholder="inserisci la descrizione del prototto, massimo 100 caratteri" rows="5"></textarea>
+                      </div>
+                    </div>
+                    <div class="input-group mb-3">
+                      <input type="file" class="form-control mt-3" id="inputGroupFile02">
+                      <label class="input-group-text mt-3" for="inputGroupFile02">Immagine</label>
+                    </div>
+                    <div class="btn-group mt-3" role="group" aria-label="First group">
+                      <button type="button" class="btn btn-outline-secondary">Disponibile</button>
+                      <button type="button" class="btn btn-outline-secondary">Esaurito</button>
+                      <button type="button" class="btn btn-outline-secondary">Fuori Produzione</button>
+                      <button type="button" class="btn btn-outline-secondary">In arrivo</button>
+                    </div>
+                  </div>
+                  <div class="col-12 col-lg-5">
+                    <ul class="list-group">
+                      <li class="list-group-item">
+                        <input
+                          class="form-check-input me-1"
+                          type="checkbox"
+                          value=""
+                          id="firstCheckbox"
+                        />
+                        <label class="form-check-label" for="firstCheckbox"
+                          >Fotocamera principale</label
+                        >
+                      </li>
+                      <li class="list-group-item">
+                        <input
+                          class="form-check-input me-1"
+                          type="checkbox"
+                          value=""
+                          id="secondCheckbox"
+                        />
+                        <label class="form-check-label" for="secondCheckbox"
+                          >Schermo OLED</label
+                        >
+                      </li>
+                      <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" />
+                        <label class="form-check-label" for="thirdCheckbox"
+                          >Processore Octa-core
+                        </label>
+                      </li>
+                      <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" />
+                        <label class="form-check-label" for="thirdCheckbox"
+                          >Ricarica Wireless
+                        </label>
+                      </li>
+                      <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" />
+                        <label class="form-check-label" for="thirdCheckbox"
+                          >Connessione 5G
+                        </label>
+                      </li>
+                      <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" />
+                        <label class="form-check-label" for="thirdCheckbox"
+                          >Tecnologia NFC
+                        </label>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <button type="button" class="btn btn-primary">Send</button>
                 
                 
             </main>   
